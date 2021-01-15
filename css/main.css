@@ -1,0 +1,572 @@
+@font-face {
+  font-family: olde;
+  src: url("../font/NewRocker-Regular.ttf");
+}
+
+@font-face {
+  font-family: sea;
+  src: url("../font/Seagram tfb.ttf");
+}
+
+@font-face {
+  font-family: older;
+  src: url("../font/OldeEnglish.ttf");
+}
+
+@font-face {
+  font-family: "mticons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/MaterialIcons-Regular.ttf);
+}
+
+.mticons {
+  font-family: mticons;
+}
+
+section,
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#alarm {
+  position: relative;
+  left: -2vw;
+}
+
+/* ========= inicio ========= */
+
+section.inicio {
+  text-align: center;
+  background: url(../img/principal.jpg) no-repeat;
+  background-size: 100%;
+  display: inline-flex;
+}
+
+.inicio img {
+  height: 20%;
+  position: relative;
+  top: 5%;
+  left: -10%;
+}
+
+section.inicio h1 {
+  color: white;
+  font-size: 4em;
+  position: relative;
+  top: 28%;
+  right: 15%;
+  font-family: sea;
+}
+
+.inicio .go {
+  display: block;
+}
+
+.inicio p {
+  color: black;
+  font-size: 2em;
+  position: relative;
+  top: 83%;
+  right: 47%;
+}
+
+/* ========= dicas ========= */
+section.dicas {
+  text-align: center;
+  background: url(../img/fundo\ dicas.jpg) no-repeat;
+  background-size: 100%;
+  display: none;
+}
+
+.dicas h1 {
+  color: black;
+  font-size: 3em;
+  position: relative;
+  top: 10%;
+  font-family: older;
+}
+
+.dicas .a1 {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  top: 25%;
+  font-family: older;
+}
+
+.dicas .a2 {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  top: 30%;
+  font-family: older;
+}
+
+.dicas .a3 {
+  color: white;
+  font-size: 2em;
+  position: relative;
+  top: 35%;
+  font-family: older;
+}
+
+.dicas p {
+  color: black;
+  font-size: 3em;
+  position: relative;
+  top: 58%;
+  font-family: older;
+}
+
+/* ========= vitória ========= */
+
+section.vitoria {
+  text-align: center;
+  background: url(../img/fundovitoria.jpg) no-repeat;
+  background-size: 100%;
+  display: none;
+}
+
+.vitoria h1 {
+  color: black;
+  font-size: 4em;
+  position: relative;
+  top: 13%;
+  font-family: older;
+}
+
+.vitoria h2 {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  top: 30%;
+  font-family: older;
+  margin: 20px;
+}
+
+.vitoria p {
+  color: white;
+  font-size: 3em;
+  position: relative;
+  top: 50%;
+  font-family: older;
+}
+
+/* ========= defeat ========= */
+
+section.defeat {
+  text-align: center;
+  background: url(../img/fundo\ dicas.jpg) no-repeat;
+  background-size: 100%;
+  display: ;
+}
+
+.defeat h1 {
+  color: black;
+  font-size: 3em;
+  position: relative;
+  top: 10%;
+  font-family: older;
+}
+
+.defeat .a1 {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  top: 25%;
+  font-family: older;
+}
+
+.defeat .a2 {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  top: 30%;
+  font-family: older;
+}
+
+.defeat .a3 {
+  color: white;
+  font-size: 2.5em;
+  position: relative;
+  top: 35%;
+  font-family: older;
+}
+
+.defeat p {
+  color: black;
+  font-size: 3em;
+  position: relative;
+  top: 58%;
+  font-family: older;
+}
+/* ========= pergunta1 ========= */
+
+.pergunta1 {
+  display: none;
+}
+
+.pergunta1 header {
+  background: url(../img/fundo.png);
+  height: 8%;
+  color: white;
+}
+
+.pergunta1 header p {
+  font-size: 2em;
+  position: relative;
+  left: 60vw;
+  top: 6px;
+}
+.pergunta1 header p .tempo {
+  position: relative;
+}
+
+.pergunta1 header p .mticons {
+  position: relative;
+  right: 55vw;
+  top: 6px;
+}
+
+.pergunta1 .body h1 {
+  font-family: olde;
+  font-size: 1.3em;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pergunta1 .body .tabela {
+  position: relative;
+  top: 100px;
+  left: 35px;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.pergunta1 .body .tabela td {
+  border: 5px solid white;
+  vertical-align: middle;
+  width: 100px;
+  height: 30px;
+  padding: 20px;
+  background-color: #c4c4c4;
+}
+
+.pergunta1 .body img {
+  width: 300px;
+  position: relative;
+  left: 50px;
+}
+
+.pergunta1 .ptopo {
+  position: relative;
+  top: -350px;
+}
+.pergunta1 .pmeio {
+  position: relative;
+  top: -130px;
+}
+
+.pergunta1 .pfim {
+  position: relative;
+  top: 95px;
+}
+
+.pergunta1 .ptopo1 {
+  position: relative;
+  top: -348px;
+  display: none;
+}
+
+/* ========= pergunta2 ========= */
+
+.pergunta2 {
+  display: none;
+}
+
+.pergunta2 header {
+  background: url(../img/fundo.png);
+  height: 8%;
+  color: white;
+}
+
+.pergunta2 header p {
+  font-size: 2em;
+  position: relative;
+  left: 60vw;
+  top: 6px;
+}
+.pergunta2 header p .tempo {
+  position: relative;
+}
+
+.pergunta2 header p .mticons {
+  position: relative;
+  right: 55vw;
+  top: 6px;
+}
+
+.pergunta2 .body img {
+  width: 80px;
+}
+
+.pergunta2 .body ul {
+  display: inline-flex;
+  position: relative;
+  top: 20px;
+}
+
+.pergunta2 .body ul .li1 {
+  position: relative;
+  left: 70vw;
+}
+
+.pergunta2 .body ul .li2 {
+  position: relative;
+  right: 10vw;
+}
+
+.pergunta2 .body h1 {
+  font-family: olde;
+  font-size: 1.3em;
+  position: relative;
+  top: 60px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pergunta2 .body .tabela {
+  position: relative;
+  top: 100px;
+  left: 35px;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.pergunta2 .body .tabela td {
+  border: 5px solid white;
+  vertical-align: middle;
+  width: 100px;
+  height: 30px;
+  padding: 20px;
+  background-color: #c4c4c4;
+}
+
+.pergunta2 .body .silf {
+  position: relative;
+  top: 140px;
+  left: 160px;
+}
+
+/* ========= pergunta4 ========= */
+
+.pergunta3 {
+  display: none;
+}
+
+.pergunta3 header {
+  background: url(../img/fundo.png);
+  height: 8%;
+  color: white;
+}
+
+.pergunta3 header p {
+  font-size: 2em;
+  position: relative;
+  left: 60vw;
+  top: 6px;
+}
+.pergunta3 header p .tempo {
+  position: relative;
+}
+
+.pergunta3 header p .mticons {
+  position: relative;
+  right: 55vw;
+  top: 6px;
+}
+
+.pergunta3 .body h1 {
+  font-family: olde;
+  font-size: 1.3em;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pergunta3 .body .tabela {
+  position: relative;
+  top: 150px;
+  left: 35px;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.pergunta3 .body .tabela td {
+  border: 5px solid white;
+  vertical-align: middle;
+  width: 100px;
+  height: 30px;
+  padding: 20px;
+  background-color: #c4c4c4;
+}
+
+.pergunta3 .body img {
+  width: 200px;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+/* ========= pergunta4 ========= */
+
+.pergunta4 {
+  display: none;
+}
+
+.pergunta4 header {
+  background: url(../img/fundo.png);
+  height: 8%;
+  color: white;
+}
+
+.pergunta4 header p {
+  font-size: 2em;
+  position: relative;
+  left: 60vw;
+  top: 6px;
+}
+.pergunta4 header p .tempo {
+  position: relative;
+}
+
+.pergunta4 header p .mticons {
+  position: relative;
+  right: 55vw;
+  top: 6px;
+}
+
+.pergunta4 .body h1 {
+  font-family: olde;
+  font-size: 1.3em;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pergunta4 .body .tabela {
+  position: relative;
+  top: 150px;
+  left: 35px;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 20px;
+  font-size: 1.3em;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.pergunta4 .body .tabela td {
+  border: 5px solid white;
+  vertical-align: middle;
+  width: 100px;
+  height: 30px;
+  padding: 20px;
+  background-color: #c4c4c4;
+}
+
+.pergunta4 .body img {
+  width: 300px;
+  position: relative;
+  top: 250px;
+  left: 60px;
+}
+
+/* ========= pergunta5 ========= */
+
+.pergunta5 {
+  display: none;
+}
+
+.pergunta5 header {
+  background: url(../img/fundo.png);
+  height: 8%;
+  color: white;
+}
+
+.pergunta5 header p {
+  font-size: 2em;
+  position: relative;
+  left: 30vw;
+  top: 9px;
+}
+.pergunta5 header p .tempo {
+  position: relative;
+}
+
+.pergunta5 header p .mticons {
+  position: relative;
+  right: 24vw;
+  top: 6px;
+}
+
+.pergunta5 header p .pontos {
+  font-size: 25px;
+  position: relative;
+  right: 10vw;
+}
+
+.pergunta5 .body {
+  background: url(../img/fundo.png);
+  width: 100%;
+  height: 100%;
+}
+
+.pergunta5 .body .campo {
+  background-color: white;
+  position: relative;
+  left: 37px;
+  top: 20px;
+  width: 330px;
+  height: 590px;
+}
+
+.pergunta5 .body .campo img {
+  position: relative;
+  left: 10px;
+  width: 50px;
+  transform: rotate(40deg);
+}
+
+.pergunta5 div.graal {
+  width: 50px;
+  height: 42px;
+  background: url(../img/graal1.png);
+  padding: 10px 10px;
+  background-size: 100%;
+  position: relative;
+}
